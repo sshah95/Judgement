@@ -5,7 +5,7 @@ public class Judgement
 	private ArrayList<Player> playerList;
 	private ArrayList<Hand> hands;
 	private ArrayList<Card> cards;
-	private Card[] activeHand;
+	private 
 	public static void main(String[] args)
 	{
 		System.out.println("Hello world!");
@@ -94,12 +94,8 @@ class Card
   
 }
 
-class Strategies
-{
-  
-}
-
 class PlayedCards
 {
-  
+  private Card [] cardsPlayed;
+ 
 }
